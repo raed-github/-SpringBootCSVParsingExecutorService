@@ -34,7 +34,7 @@ public class EmployeeController {
     }
 
     /**
-     * we are splitting the execution to three different tasks (3 threads)
+     * we are splitting the execution to five different tasks (5 threads)
      * @return
      */
     @GetMapping(value = "/employees-multiple-thread", produces = "application/json")
